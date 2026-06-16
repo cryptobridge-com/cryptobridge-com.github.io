@@ -1,0 +1,107 @@
+{
+ "keyword": "crypto bridge",
+ "h1": "Crypto Bridge",
+ "brand": "deBridge",
+ "niche": "bridge",
+ "verb": "Bridge",
+ "title": "Crypto Bridge - Open deBridge App",
+ "meta_description": "crypto bridge access for cross-chain swaps and transfers via deBridge. Connect wallet, review the route, and open the official app.",
+ "palette": {
+  "mode": "dark",
+  "bg": "#010C15",
+  "accent": "#FBFF3A",
+  "ink": "#E6EDE4"
+ },
+ "hero_h2": "Move assets between chains in the official app",
+ "hero_lead": "Crypto Bridge routes users to deBridge for non-custodial cross-chain swaps, token transfers, and onchain execution across supported networks.",
+ "badge": "Cross-chain",
+ "widget": {
+  "from": "USDC",
+  "from_net": "Ethereum",
+  "to": "USDC",
+  "to_net": "Base",
+  "action": "Open deBridge App"
+ },
+ "trust": [
+  "Official app: app.debridge.com",
+  "Non-custodial execution layer",
+  "EVM chains and Solana"
+ ],
+ "what_is": "deBridge is a non-custodial execution layer for same-chain and cross-chain actions; its <a href='https://docs.debridge.com/'>official docs</a> describe 0-TVL execution, DLN settlement, messaging, and recovery paths for unfulfilled orders.",
+ "how": [
+  {
+   "t": "Open the app",
+   "d": "Use the primary CTA to open app.debridge.com and connect the wallet you intend to send from."
+  },
+  {
+   "t": "Choose the route",
+   "d": "Select the source chain, source token, destination chain, destination token, and recipient wallet."
+  },
+  {
+   "t": "Review the quote",
+   "d": "Check the expected output, network, token, route details, fees, limits, and recovery terms before signing."
+  },
+  {
+   "t": "Sign and track",
+   "d": "Approve only the required wallet prompts, then monitor the order in the app or deExplorer."
+  }
+ ],
+ "points": [
+  {
+   "h": "Official app forward",
+   "p": "The page sends visitors directly to app.debridge.com, the official deBridge trading interface for cross-chain swaps and transfers."
+  },
+  {
+   "h": "Intent-based execution",
+   "p": "deBridge coordinates outcomes through its Liquidity Network, where solvers provide liquidity on demand instead of relying on shared bridge pools."
+  },
+  {
+   "h": "Broad chain coverage",
+   "p": "The <a href='https://docs.debridge.com/home/architecture/supported-chains'>supported chains docs</a> list Ethereum, Solana, Arbitrum, Avalanche, BNB Chain, Polygon, Optimism, Base, Linea, and more."
+  }
+ ],
+ "eeat": [
+  {
+   "text": "deBridge documentation",
+   "url": "https://docs.debridge.com/"
+  },
+  {
+   "text": "supported chains",
+   "url": "https://docs.debridge.com/home/architecture/supported-chains"
+  },
+  {
+   "text": "Ethereum bridge overview",
+   "url": "https://ethereum.org/bridges/"
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a crypto bridge?",
+   "a": "A crypto bridge lets users move assets or execute outcomes across blockchain networks; ethereum.org gives a neutral <a href='https://ethereum.org/bridges/'>overview of bridge models and risks</a>.",
+   "open": true
+  },
+  {
+   "q": "Is this crypto bridge the official deBridge app?",
+   "a": "No. This is an independent landing page that routes to the official app at <a href='https://app.debridge.com/'>app.debridge.com</a>; verify the domain before connecting a wallet.",
+   "open": false
+  },
+  {
+   "q": "Which networks can this crypto bridge reach through deBridge?",
+   "a": "deBridge docs list support across EVM chains and Solana, including Ethereum, Arbitrum, Avalanche, BNB Chain, Polygon, Optimism, Base, Linea, TRON, Injective, and others; availability can vary by product and token.",
+   "open": false
+  },
+  {
+   "q": "Does a crypto bridge custody my funds?",
+   "a": "deBridge describes its model as non-custodial and 0-TVL: funds pass through smart contracts per order, and unfulfilled orders can be cancelled and reclaimed under the documented flow.",
+   "open": false
+  },
+  {
+   "q": "What should I check before using a crypto bridge?",
+   "a": "Confirm the official domain, token addresses, source and destination networks, recipient wallet, quoted output, fees, route status, and cancellation terms before signing.",
+   "open": false
+  }
+ ],
+ "official_url": "https://app.debridge.com/",
+ "official_domain": "app.debridge.com",
+ "footer_note": "Not the official app; verify app.debridge.com before connecting a wallet. Educational content only, not financial advice."
+}
