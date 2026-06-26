@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://cryptobridge-com.github.io/sitemap.xml
